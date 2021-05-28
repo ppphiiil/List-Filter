@@ -81,6 +81,6 @@ console.log( ' dataOutside wwwwww', dataOutside );
 
 waitForData();
 
-setTimeout( () => console.log( ' newDataOutside', newDataOutside ), 3000 );
+
 
 filteredData = dataOutside;
