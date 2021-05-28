@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</head>
+<body>
+    <div class=" ui container">
+        <div class="header">
+            <div class="gender__main">
+                <label for="gender">Gender</label>
+                <select class="ui dropdown" name="gender" id="gender">
+                    <option value="---">---</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="Non-binary">Non-binary</option>
+                </select>
+            </div>
+            <div class="nationality__main">
+                <label for="nationality">Nationality</label>
+                <select class="ui dropdown" name="nationality" id="nationality">insert options </select>
+            </div>
+            <div class="btn">
+                <button class="ui button " id="startSearch">Search</button>
+            </div>
+        </div>
+        <div class="results" id="results"></div>
+    </div>
+    <script src="./index2.js"></script>
+    <script>
+
+        $( '.ui.dropdown' )
+            .dropdown()
+            ;</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.results {
+    list-style-type: none;
+    padding-top:30px;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: nowrap;
+    background-color: rgb(235, 235, 235);
+    height:60px;
+}
+
+.gender__main{
+  padding-left:30px;
+ 
+}
+
+.nationality__main{
+    padding-left:30px;
+}
+
+.btn{
+    padding-left:30px;
+}
+
+.list-item-gender{
+
+  width:200px;
+  padding-left:20px;
+}
+
+.list-item-name{
+   
+    width:200px;
+    font-weight: bold;
+      padding-left:20px;
+    
+}
+
+.line{
+    display:flex;
+    flex-wrap:wrap;
+    padding:10px;
+}
+
+.list:nth-of-type(2n+1){
+   background-color: rgb(240, 240, 240);
+  
+}
+
+
